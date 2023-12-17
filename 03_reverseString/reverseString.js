@@ -1,4 +1,8 @@
-const reverseString = function() {
+const reverseString = function(reverseThis) {
+    var splitStr = reverseThis.split('');
+    var reverseArr = splitStr.reverse();
+    var joinArr = reverseArr.join('');
+    return joinArr;
 
 };
 
